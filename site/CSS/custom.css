@@ -42,6 +42,25 @@ body{
     max-height: 800px;
 }
 
+.centro{
+    width: 1000px;
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid .coluna img{
+    width: 100%;
+}
+
+.grid .coluna p{
+    margin: 15px;
+    text-align: center;
+}
+
 .nav {
     max-width: 1280px;
     height: 70px;
