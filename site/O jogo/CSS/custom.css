@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    border-top: 2px solid #CCC;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.textogeral{
+    color: white;
+
+}
+
+.textocentro{
+    text-align: center;
+}
+
+video{
+    width: 100px;
+    height: auto;
+}
+
+.tamanhologo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+body{
+    background-color: black;
+}
+
+.cartaz{
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+}
+
+a{
+    text-decoration: none;
+}
