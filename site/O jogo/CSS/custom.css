@@ -42,6 +42,15 @@ body{
     max-height: 800px;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid .coluna img{
+    width: 100%;
+}
+
 .nav {
     max-width: 1280px;
     height: 70px;
@@ -65,4 +74,10 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.png{
+    padding-top: 30px;
+    max-width: 8%;
+    max-height: 8%;
 }

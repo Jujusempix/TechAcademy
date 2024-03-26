@@ -85,3 +85,9 @@ body{
 a{
     text-decoration: none;
 }
+
+.png{
+    padding-top: 30px;
+    max-width: 8%;
+    max-height: 8%;
+}
