@@ -1,3 +1,4 @@
+/*Mobile*/
 @media (max-width: 719px) {
     /* mostrar o menu normal */
     .header .header-nav {
@@ -30,7 +31,7 @@
 
     .nav-list a {
         font-size: 50px;
-        color: #ffffff;
+        color: white;
         padding-block: 18px;
     }
     .icone{
@@ -51,7 +52,7 @@
     }
     
     .textogeral{
-        color: black;
+        color: white;
         font-family:sans-serif,arial;
     }
     
@@ -96,7 +97,7 @@
     }
     
     .nav {
-        background-color: black;
+        background-color: white;
         max-width: 1280px;
         height: 70px;
         margin-inline: auto;
@@ -153,6 +154,7 @@
         width: 100%;
         text-align: center;
         bottom: 0;
+        border-top: solid 1px white;
     }
     
     .textogeral{
@@ -206,7 +208,7 @@
     }
     
     .nav {
-        background-color: #000;
+        background-color: black;
         max-width: 1280px;
         height: 70px;
         margin-inline: auto;
@@ -215,7 +217,7 @@
         align-items: center;
         padding-left: 35px;
         padding-right: 35px ;
-        box-shadow: 2px 2px 9px gray;
+        border-bottom: solid 1px white;
     }
     
     .nav-list {
@@ -226,7 +228,7 @@
     
     .nav-list a {
         font-size: 22px;
-        color: black;
+        color: white;
         padding-block: 18px;
     }
     
